@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <title>Pagina Bootstrap</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Funzionalità di Bootstrap</h1>
+
+        <!-- Badges -->
+        <span class="badge badge-primary">Badge Primario</span>
+        <span class="badge badge-secondary">Badge Secondario</span>
+        <span class="badge badge-success">Badge Successo</span>
+
+        <!-- Pagination -->
+        <ul class="pagination">
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+        </ul>
+
+        <!-- List Group -->
+        <ul class="list-group">
+            <li class="list-group-item">Elemento 1</li>
+            <li class="list-group-item">Elemento 2</li>
+            <li class="list-group-item">Elemento 3</li>
+        </ul>
+
+        <!-- Card -->
+        <div class="card" style="width: 18rem;">
+            <img src="mugshot.jpg" class="card-img-top" alt="Immagine di esempio">
+            <div class="card-body">
+                <h5 class="card-title">Card Titolo</h5>
+                <p class="card-text">Testo di esempio per la card.</p>
+            </div>
+        </div>
+
+        <!-- Collapse -->
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+            Espandi
+        </button>
+        <div class="collapse" id="collapseExample">
+            Contenuto nascosto.
+        </div>
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Altro Link</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
